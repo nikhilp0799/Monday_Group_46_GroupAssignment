@@ -127,7 +127,7 @@ private void createDemoData() {
     // Create customers per supplier and populate customer directories
     CustomerDirectory appleCustomers = new CustomerDirectory(business);
     for (int i = 1; i <= 10; i++) {
-        Person p = new Person("AppleCustomer" + i);
+        Person p = new Person("Apple Customer" + i);
         appleCustomers.newCustomerProfile(p);
     }
     supplierCustomers.put("Apple", appleCustomers);
