@@ -217,7 +217,6 @@ private void populateProductTable(ProductCatalog products) {
 }
 
 
-    // New method for automatic adjustments
 private void autoAdjustPricesAndQuantities(int adjustmentLevel) {
     // Adjustment levels
     int priceDecreasePercentage;
