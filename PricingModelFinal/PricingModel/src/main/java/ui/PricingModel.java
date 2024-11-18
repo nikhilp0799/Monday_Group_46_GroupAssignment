@@ -127,7 +127,7 @@ private void createDemoData() {
     // Create customers per supplier and populate customer directories
     CustomerDirectory appleCustomers = new CustomerDirectory(business);
     for (int i = 1; i <= 10; i++) {
-        Person p = new Person("Apple Customer" + i);
+        Person p = new Person("AppleCustomer" + i);
         appleCustomers.newCustomerProfile(p);
     }
     supplierCustomers.put("Apple", appleCustomers);
@@ -135,7 +135,7 @@ private void createDemoData() {
 
     CustomerDirectory microsoftCustomers = new CustomerDirectory(business);
     for (int i = 1; i <= 10; i++) {
-        Person p = new Person("Microsoft Customer" + i);
+        Person p = new Person("MicrosoftCustomer" + i);
         microsoftCustomers.newCustomerProfile(p);
     }
     supplierCustomers.put("Microsoft", microsoftCustomers);
@@ -143,7 +143,7 @@ private void createDemoData() {
 
     CustomerDirectory sonyCustomers = new CustomerDirectory(business);
     for (int i = 1; i <= 10; i++) {
-        Person p = new Person("Sony Customer" + i);
+        Person p = new Person("SonyCustomer" + i);
         sonyCustomers.newCustomerProfile(p);
     }
     supplierCustomers.put("Sony", sonyCustomers);
@@ -151,7 +151,7 @@ private void createDemoData() {
    // Repeat similarly for other suppliers
     CustomerDirectory samsungCustomers = new CustomerDirectory(business);
     for (int i = 1; i <= 10; i++) {
-        Person p = new Person("Samsung Customer" + i);
+        Person p = new Person("SamsungCustomer" + i);
         samsungCustomers.newCustomerProfile(p);
     }
     supplierCustomers.put("Samsung", samsungCustomers);
