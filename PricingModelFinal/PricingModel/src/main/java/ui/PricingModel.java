@@ -43,7 +43,6 @@ public PricingModel() {
     business = new Business("Business");
 
 
-    // Initialize the UI components
     initComponents();
 
     // Create demo data to populate the Supplier and ProductCatalogs
