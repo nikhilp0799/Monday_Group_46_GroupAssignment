@@ -74,7 +74,6 @@ private void createDemoData() {
     supplierCatalogs.put("Samsung", samsungCatalog);
     supplierCatalogs.put("Sony", sonyCatalog);
 
-    // Adding products to each supplier's product catalog
     appleCatalog.newProduct("iPhone 15 Pro", 850, 1200, 1000);
     appleCatalog.newProduct("MacBook Air M2", 900, 1300, 1100);
     appleCatalog.newProduct("iPad mini", 550, 800, 700);
@@ -92,7 +91,6 @@ private void createDemoData() {
     dellCatalog.newProduct("Dell XPS 15", 1000, 1300, 1100);
     dellCatalog.newProduct("Dell G7 15 Gaming Laptop", 950, 1200, 1000);
     dellCatalog.newProduct("Dell Latitude 14", 700, 1300, 1100);
-
 
     sonyCatalog.newProduct("Sony Xperia 1 IV", 850, 1200, 1000);
     sonyCatalog.newProduct("Sony VAIO Laptop", 900, 1300, 1100);
@@ -112,7 +110,6 @@ private void createDemoData() {
     samsungCatalog.newProduct("Samsung Galaxy Z Fold 5", 950, 1200, 1000);
     samsungCatalog.newProduct("Samsung Galaxy Book 2", 700, 1300, 1100);
 
-    
     microsoftCatalog.newProduct("Microsoft Surface Laptop 4", 850, 1200, 1000);
     microsoftCatalog.newProduct("Microsoft Surface Book 3", 900, 1300, 1100);
     microsoftCatalog.newProduct("Microsoft Surface Go 3", 550, 800, 700);
@@ -121,7 +118,6 @@ private void createDemoData() {
     microsoftCatalog.newProduct("Microsoft Surface Pro 7", 1000, 1300, 1100);
     microsoftCatalog.newProduct("Microsoft Surface Duo 2", 950, 1200, 1000);
     microsoftCatalog.newProduct("Microsoft Surface Laptop Go", 700, 1300, 1100);
-
 
 
     // Create customers per supplier and populate customer directories
