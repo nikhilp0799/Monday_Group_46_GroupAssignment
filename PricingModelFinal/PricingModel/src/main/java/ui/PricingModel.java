@@ -135,7 +135,7 @@ private void createDemoData() {
 
     CustomerDirectory microsoftCustomers = new CustomerDirectory(business);
     for (int i = 1; i <= 10; i++) {
-        Person p = new Person("MicrosoftCustomer" + i);
+        Person p = new Person("Microsoft Customer" + i);
         microsoftCustomers.newCustomerProfile(p);
     }
     supplierCustomers.put("Microsoft", microsoftCustomers);
