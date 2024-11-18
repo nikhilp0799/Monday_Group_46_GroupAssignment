@@ -156,7 +156,7 @@ private void createDemoData() {
     }
     supplierCustomers.put("Samsung", samsungCustomers);
     
-   // Repeat similarly for other suppliers
+
     CustomerDirectory dellCustomers = new CustomerDirectory(business);
     for (int i = 1; i <= 10; i++) {
         Person p = new Person("DellCustomer" + i);
