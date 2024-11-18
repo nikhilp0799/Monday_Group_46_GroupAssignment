@@ -83,6 +83,7 @@ private void createDemoData() {
     appleCatalog.newProduct("MacBook Air M3", 1000, 1300, 1100);
     appleCatalog.newProduct("iPhone 16 Pro", 950, 1200, 1000);
     appleCatalog.newProduct("MacBook Air M1", 700, 1300, 1100);
+    appleCatalog.newProduct("IpodTouch", 700, 1200, 1100);
     
     dellCatalog.newProduct("Dell XPS 13", 850, 1200, 1000);
     dellCatalog.newProduct("Dell Inspiron 15", 900, 1300, 1100);
@@ -92,6 +93,7 @@ private void createDemoData() {
     dellCatalog.newProduct("Dell XPS 15", 1000, 1300, 1100);
     dellCatalog.newProduct("Dell G7 15 Gaming Laptop", 950, 1200, 1000);
     dellCatalog.newProduct("Dell Latitude 14", 700, 1300, 1100);
+    dellCatalog.newProduct("Dell Pro Laptop", 700, 1230, 1000);
 
 
     sonyCatalog.newProduct("Sony Xperia 1 IV", 850, 1200, 1000);
@@ -102,6 +104,8 @@ private void createDemoData() {
     sonyCatalog.newProduct("Sony VAIO Laptop Pro", 1000, 1300, 1100);
     sonyCatalog.newProduct("Sony Xperia 5 II", 950, 1200, 1000);
     sonyCatalog.newProduct("Sony VAIO Laptop Air", 700, 1300, 1100);
+    sonyCatalog.newProduct("Sony Vegas Laptop", 700, 1250, 1100);
+
     
     samsungCatalog.newProduct("Samsung Galaxy S23", 850, 1200, 1000);
     samsungCatalog.newProduct("Samsung Galaxy Book Pro", 900, 1300, 1100);
@@ -111,6 +115,7 @@ private void createDemoData() {
     samsungCatalog.newProduct("Samsung Galaxy Book 3", 1000, 1300, 1100);
     samsungCatalog.newProduct("Samsung Galaxy Z Fold 5", 950, 1200, 1000);
     samsungCatalog.newProduct("Samsung Galaxy Book 2", 700, 1300, 1100);
+    samsungCatalog.newProduct("Samsung Fold", 700, 1400, 1100);
 
     
     microsoftCatalog.newProduct("Microsoft Surface Laptop 4", 850, 1200, 1000);
@@ -121,6 +126,7 @@ private void createDemoData() {
     microsoftCatalog.newProduct("Microsoft Surface Pro 7", 1000, 1300, 1100);
     microsoftCatalog.newProduct("Microsoft Surface Duo 2", 950, 1200, 1000);
     microsoftCatalog.newProduct("Microsoft Surface Laptop Go", 700, 1300, 1100);
+    microsoftCatalog.newProduct("Microsoft Surface 2024", 700, 1500, 1100);
 
 
 
